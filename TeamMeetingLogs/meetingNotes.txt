@@ -1,0 +1,68 @@
+Mon Oct 28th Group Meeting
+Redo file structure
+Discussed how to operate tailwind & daisyUI
+Discussed breaking down tasks & how everything will come together
+
+Assignments
+Jay works on theme controller
+Andrew mocks up general modal approach
+Chris works on the dynamic table dashboard
+  The biggest part of that would be just to make sure we store records and iterate them out onto a visual table
+
+----
+
+Sun Oct 27th Max - Daria - Irene
+Determined & discussed general design files
+Discussed authentication page approach
+
+Friday Nov 1st -- Chloe & Whole Team
+Debriefed the relational scheme
+Shared PM google doc with Chloe
+Reviewed general READ.ME & tech stack
+Discussed MPV
+  login authentication
+  dashboard with CRUD operation
+  modal for CRUD
+  Theme Controller
+Spend more time reviewing database file storing?
+
+Monday Nov4th -- Team Point Poker
+Determined user stories & epics
+Assigned story points
+
+Meeting Notes(11/08): Taken by Christo
+Use of branches: Working to pull previous commits to compile previous working code
+
+Weeks Accomplishments: 
+	Irene: 
+		This Week: Worked on Registration Route and Login page styling
+		Next Week: Complete Registration and Login routes
+	Jay: 
+		This Week: Updated Theme Controller implementing DaisyUI for a theme controller icon 
+		Next Week: Consistent Styling throughout application pages and focus on backend routes for other parts of app
+	Max: 
+		This Week: Managerial Items: Creating layout for home page and dashboard formatting, more detail and effort into SQL
+		Next Week: Less managerial, more coding, assist Christo with database initialization
+	Andrew: 
+		This Week: Worked on home page, pulling info from modal form and inserting into table
+		Next Week: Database work to insert form data
+	Christo: 
+		This Week: Worked on “Add New” modal form mainly front end components to store data for Andrews table
+		Next Week: Finalize database within docker compose and revise SQL to solve errors, Write backend routes to insert form data to database
+	Daria: 
+		This Week: Worked on create and insert SQL for database 
+		Next Week: Assist Christo with database stuff
+
+Meeting Notes (11/13)
+Confirmed status update on all components. Finalized general components to prepare for the branch merging tomorrow, Thursday 11/14.
+	Dashboard & Modal (Andrew & Christo): CRU operations work, excluding delete. Dashboard displays primary information. Missing 5 more columns
+		Next Steps: Add remaining attributes to columns. Develop input validation & mark optional attributes for records. correct the app 		due date
+	Authentication, login, lab 11 testing (Irene & Jay): Proper registration & login & general unit tests
+		Next steps: include a first name, last name, attributes to the registration page. load those as a name into the nav bar. password 		validation with output messages.
+	Dropdown (Max & Daria): dropdown button frontend complete. Database tables complete for it.
+		Next steps: buld the backend to store the data to the database to pull on. if we can, color code change the different drop downs
+
+Meeting Notes (11/15) Whole Team with Chloe
+- Everything seems assigned well
+- we can also attach the user stories to the particular epics
+- component circle. things look good. finalize the backend. add another big feature and your chilling. be mindful of the creativity aspect of the grade

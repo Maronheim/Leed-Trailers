@@ -1,0 +1,42 @@
+{
+  "name": "csci-3308-project-repository",
+  "version": "1.0.0",
+  "description": "Project Overview: Your application must have a GUI, a database, API data source (optional), a middle layer connecting your UI to your data. The code should be built within Docker containers so they are portable. Make sure to consider these core requirements when designing the architecture of your application.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build src/resources/css/style.css -o public/styles.css",
+    "watch:css": "tailwindcss build src/resources/css/style.css -o public/styles.css --watch",
+    "prestart": "npm install",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "mocha",
+    "testandrun": "npm run prestart && npm run test && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.1.3",
+    "bcryptjs": "^2.4.0",
+    "body-parser": "1.20.0",
+    "daisyui": "^4.12.14",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "pg-promise": "^10.15.4",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.8.2",
+    "nodemon": "^3.1.7",
+    "npm-run-all": "^4.1.5"
+  }
+}

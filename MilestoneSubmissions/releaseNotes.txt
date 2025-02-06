@@ -1,0 +1,53 @@
+11/08 Release Notes
+Irene: Preliminary Login & Registration Pages
+Christo & Andrew: 1/2 draft of modal & dashboard done
+Max: Debugged linking errors, created hi-fi dashboard diagram, finalized the github project dashboard
+Daria: Finalized database
+Jay: Finalizing theme controller
+
+Next Steps
+1. Finish registration, login & authentication with test cases using mocha
+2. Fully drafted dashboard that can be accessed with CRUD operations
+3. Entity level diagrams are in progress for implementation
+4. Theme contoller complete
+
+11/01 Release Notes
+Created primary diagrams, finalized directoy structure, assigned tasks, began learning general project requirements
+
+Next Steps
+begin preliminary development
+
+---
+Release Notes – 11/14
+Dashboard & Modal (Contributors: Andrew & Christo)
+  Current Functionality: Create, Read, and Update (CRU) operations are operational; Delete functionality is not yet implemented. The dashboard 
+  currently displays primary information fields but is missing five additional columns.
+  Next Steps:
+    Add remaining attributes to the dashboard columns.
+    Develop input validation for data entry and mark optional attributes in the form.
+    Correct the due date attribute for applications.
+Authentication, Login, and Unit Testing (Contributors: Irene & Jay)
+  Current Functionality: User registration and login processes are fully functional, with general unit tests confirming stability and 
+  functionality.
+  Next Steps:
+    Add first name and last name fields to the registration page, displaying the full name in the navigation bar after login.
+    Implement password validation with feedback messages for users.
+Dropdown (Contributors: Max & Daria)
+  Current Functionality: Frontend functionality for dropdown buttons is complete, and database tables for dropdown options are established.
+  Next Steps:
+    Implement color coding for different dropdown stages if possible.
+  
+Future Potential Features
+  Google Calendar API Integration: Link to enable task scheduling and follow-up reminders for recruitment.
+  Entity-Level Dashboard: Develop dashboards to serve more granular data views for individual entities.
+
+Release Notes - 11/21
+Resource Page - (Contributors: Max & Andrew)
+  Current Functionality: Has general interview, textbook, & recruitment process content)
+  Next Steps: Create a potential video that would instruct recruitment. Maybe have it as a modal?
+Dashboard - (Contributors: Andrew & Christo)
+  Current Functionality: Has deadline calendar & more columns that are final
+  Next Steps: finalize the presentaiton of the table. Maybe place the table into a div that makes it scrollable
+Auth, login, etc- Contri bu
+  Added functionalities (IRENE): prettier password creation & validation reqs. Updated reg to include POC info and first & last name content
+  Added functionalities (Jay): Used current user information to display in several parts of the nav & dashboard display
